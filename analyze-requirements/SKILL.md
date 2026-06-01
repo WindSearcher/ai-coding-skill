@@ -78,6 +78,17 @@ description: 分析并澄清产品需求。当用户提供 PRD、产品需求文
 - [ ] 待澄清问题按阻塞严重程度排序
 - [ ] 明确排除范围，防止范围蔓延
 
+## 上下文传递
+
+### 输入
+- 原始 PRD 文档（文件路径或对话中粘贴）
+- 如从其他阶段回退，参考已有的需求分析产物
+
+### 输出
+- 保存为: `docs/requirements/{功能名称}.requirements.md`
+- 文件名格式: `YYYY-MM-DD-功能名称.requirements.md`
+- 下一阶段的输入来源: 本文档的功能需求表和用户故事表
+
 ## 参考
 
 详细示例见 [references/output-template.md](references/output-template.md)。
